@@ -1,5 +1,6 @@
 @import 'variables';
-
-body{
-    background-color: red;
-}
+@import 'global';
+@import 'pages/index';
+@import 'pages/galeria';
+@import 'pages/shop';
+@import 'pages/turnos';
