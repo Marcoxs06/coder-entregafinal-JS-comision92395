@@ -13,17 +13,19 @@
 body{
 margin: 0;
 display: grid;
-background-color: white;
+background-color: rgb(255, 255, 255);
 grid-template-rows: auto 1fr auto;
 min-height: 100vh;
   
   .header{
     height: max-content;
-    border-radius: 20px;
+   
     margin: 10px;
     display: flex;
      align-items: center;
       justify-content: space-between;
+      
+   
       .logo{
         img{
           width: 62px;
@@ -35,14 +37,19 @@ min-height: 100vh;
         justify-content: end;
        padding: 10px 1px;
         margin-right: 20px;
-        border-radius: 45px;
+        border-radius: 9px;
         background-color: $color-principal;
+         box-shadow:4px 5px 34px 0px  rgba(0, 0, 0, 0.201);
+   
          a{
             font-family: $fuente-principal;
             font-size: large;
             color: white;
           text-decoration: none;
           margin-inline: 35px;
+          &:hover{
+            color: rgb(146, 206, 136);
+          }
           }
         }
       }

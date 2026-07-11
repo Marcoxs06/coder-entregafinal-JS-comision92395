@@ -16,11 +16,12 @@
   .portada {
    background-color: rgba(227, 230, 229, 0.802);
    width: 990px;
-  height: 540px;
+   height: 540px;
   
    display: grid;
    grid-template-columns: repeat(4,1fr);
    grid-template-rows: 1fr 1fr;
+   box-shadow:14px 15px 14px 0px  rgba(0, 0, 0, 0.201);
    
 
     .imagenpor {
@@ -38,8 +39,8 @@
         grid-row: 1/2;
         color: $color-principal;
         
-        font-size: 4.5rem;
-        font-weight: 300;
+        font-size: 4.4rem;
+        font-weight: 500;
         align-items: center;
         justify-content: center;
     }
