@@ -1,0 +1,45 @@
+.tarje {
+    background-color: $color-principal;
+    padding: 15px 20px;
+    color: white; 
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 400px; 
+    box-sizing: border-box; 
+}
+
+.tarje2 {
+    background-color: gray;
+    padding: 15px 20px;
+    color: white; 
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 400px; 
+    box-sizing: border-box; 
+}
+
+.tarje p {
+    margin: 0;
+    font-weight: bold;
+}
+#contenedor-hoy {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+.boton-estilo {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto; 
+}

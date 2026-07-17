@@ -1,0 +1,22 @@
+[
+{
+    "id": 1,
+    "tipo": "Corte Clásico",
+    "imagen": "/assets/img/corte1.jpeg"
+  },
+  {
+    "id": 2,
+    "tipo": "Degradado (Fade)",
+    "imagen": "/assets/img/corte2.jpeg"
+  },
+  {
+    "id": 3,
+    "tipo": "Corte y Barba",
+    "imagen": "/assets/img/corte3.jpeg"
+  },
+  {
+    "id": 4,
+    "tipo": "Corte y Barba",
+    "imagen": "/assets/img/corte4.jpeg"
+  }
+]

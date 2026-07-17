@@ -65,7 +65,7 @@ body .footer .pie {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  box-shadow: 14px 15px 14px 0px rgba(0, 0, 0, 0.201);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.12);
 }
 .main .portada .imagenpor {
   grid-column: 1/3;
@@ -97,4 +97,80 @@ body .footer .pie {
   color: rgb(28, 116, 73);
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.imagenp {
+  height: 340px;
+  width: 220px;
+}
+
+.parra {
+  color: white;
+  font-size: 26px;
+  align-items: center;
+}
+
+.cartas {
+  width: 1200px;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.tarjeta-individual {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: rgb(28, 116, 73);
+  padding: 15px 15px 40px;
+  border-radius: 5px;
+}
+
+.tarje {
+  background-color: rgb(28, 116, 73);
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.tarje2 {
+  background-color: gray;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.tarje p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#contenedor-hoy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.boton-estilo {
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
 }/*# sourceMappingURL=style.css.map */
