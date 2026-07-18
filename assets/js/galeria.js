@@ -2,7 +2,7 @@ const contcards = document.querySelector('.cartas');
 
 
 const peticion = () => {
-    fetch('/assets/cortes.json')
+    fetch('../cortes.json')
         .then((respuesta) => respuesta.json())
         .then((datosjson) => {
             datosjson.forEach((AUX) => { 
