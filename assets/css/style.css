@@ -105,8 +105,9 @@ body .footer .pie {
 }
 
 .parra {
+  font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 26px;
+  font-size: 19px;
   align-items: center;
 }
 
@@ -126,7 +127,8 @@ body .footer .pie {
   display: flex;
   flex-direction: column;
   width: max-content;
-  background-color: rgb(28, 116, 73);
+  background-color: rgba(24, 143, 28, 0.659);
+  border: 2px white solid;
   padding: 15px 15px 40px;
   border-radius: 5px;
 }
